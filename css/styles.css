@@ -1,0 +1,279 @@
+@charset "UTF-8";
+
+/** pages *********************************************************************/
+
+body {
+  background-color: #000;
+  margin:           20px;
+  font-family:      Verdana, Geneva, sans-serif;
+  color:            #f5f5f5;
+  font-size:        10px;
+  font-weight:      normal;
+  line-height:      20px;
+  letter-spacing:   1px;
+}
+
+a {
+  color:           #ffc053;
+  text-decoration: none;
+}
+
+#header {
+  position: relative;
+  height:   60px;
+  width:    800px;
+}
+
+#menu {
+	position: absolute;
+	right:    0px;
+	bottom:   0px;
+  color:    #FFF;
+}
+
+#frame {
+  width:    800px;
+  margin:   auto;
+}
+
+#body {
+  width:         760px;
+  padding:   40px 12px;
+}
+
+#body a:hover {
+  color:           #ffc053;
+  text-decoration: underline;
+}
+
+#footer {
+  position:       relative;
+  float:          left;
+  width:          729px;
+  margin:         10px 0px;
+  font-size:      10px;
+  letter-spacing: normal;
+  color:          #5c5c5c;
+}
+
+/** home **********************************************************************/
+
+#home_body_text {
+  position:   relative;
+  float:      left;
+  width:      729px;
+  padding:    18px 23px 18px 23px;
+  background: url(img/home/text_bg.jpg) repeat-y;
+}
+
+#home_description {
+  position:     relative;
+  float:        left;
+  width:        408px;
+  margin-right: 23px;
+}
+
+#home_contact{
+  position:    relative;
+  float:       left;
+  width:       275px;
+  margin-left: 23px;
+  color:       #949494;
+}
+
+/** about *********************************************************************/
+
+#about_body{
+  position:   relative;
+  float:      left;
+  width:      775px;
+  background: #272727;
+}
+
+#about_copy {
+  position:       relative;
+  float:          left;
+  width:          367px;
+  min-height:     486px;
+  margin:         24px 25px 0px 20px;
+  padding-bottom: 10px;
+}
+
+#about_copy p {
+  margin-top:    0px;
+  margin-bottom: 14px;
+}
+
+#about_copy #title {
+  position:       relative;
+  float:          left;
+  width:          367px;
+  text-align:     left;
+  font-family:    Verdana, Geneva, sans-serif;
+  font-size:      22px;
+  line-height:    normal;
+  letter-spacing: .1em;
+  font-weight:    normal;
+  color:          #a0a0a0;
+  margin-bottom:  15px;
+}
+
+#about_body img {
+  position: relative;
+  float:    left;
+}
+
+/** services ******************************************************************/
+
+#services_body{
+  position: relative;
+  float:    left;
+  width:    775px;
+}
+
+#services_titles{
+  position: relative;
+  float:    left;
+  padding:  0px 0px 0px 20px;
+}
+
+.services_title {
+  position:   relative;
+  float:      left;
+  width:      221px;
+  margin:     20px 40px 0px 0px;
+  font-size:  18px;
+  color:      #a0a0a0;
+}
+
+#services_copy {
+  position:   relative;
+  float:      left;
+  width:      755px;
+  margin-top: 20px;
+  padding:    0px 0px 10px 20px;
+  background: #272727;
+}
+
+.services_column {
+  position: relative;
+  float:    left;
+  width:    221px;
+  margin:   10px 40px 0px 0px;
+}
+
+#contact_body {
+  position:   relative;
+  float:      left;
+  width:      775px;
+  background: #272727;
+}
+
+/** contact *******************************************************************/
+
+#contact_body img {
+  position: relative;
+  float:    left;
+}
+
+#contact_copy {
+  position: relative;
+  float:    left;
+  margin:   15px 20px 10px 20px;
+}
+
+/** gallery *******************************************************************/
+
+#gallery_body {
+  position: relative;
+  float:    left;
+  width:    776px;
+}
+
+#gallery_main_photo {
+  position:       relative;
+  float:          left;
+  width:          776px;
+  height:         450px;
+  text-align:     center;
+  vertical-align: middle;
+}
+
+#gallery_main_photo img {
+  max-height: 450px;
+  max-width:  750px;
+}
+
+#photographer {
+  position:relative;
+  float:left;
+  width:766px;
+  margin: 20px 0px 0px 0px;
+  text-align:right;
+  color:#666;
+}
+
+#gallery_categories {
+  position:relative;
+  float:left;
+  width:766px;
+  margin:3px 0px 0px 0px;
+  padding:5px;
+  color:#d8d8d8;
+  background:#333;
+}
+
+.categoryUnselected {
+  cursor: pointer;
+  color: #636363;
+}
+
+.categoryUnselected:hover {
+  cursor: pointer;
+  color: #999;
+}
+
+#gallery_nav {
+  position:   relative;
+  float:      left;
+  width:      776px;
+  height:     76px;
+  background: #272727;
+}
+
+#gallery_nav img {
+  position: relative;
+  float:    left;
+}
+
+#gallery_thumb_holder {
+  position: relative;
+  float:    left;
+  width:    710px;
+  height:   56px;
+  margin:   10px 8px 10px 12px;
+  overflow: hidden;
+}
+
+#gallery_thumbs {
+  position: absolute;
+  top:      0px;
+  height:   56px;
+}
+
+.gallery_thumb {
+  position:     relative;
+  float:        left;
+  width:        89px;
+  height:       56px;
+  margin-right: 13px;
+  overflow:     hidden;
+}
+
+.gallery_thumb img {
+  position:relative;
+  max-width: 89px;
+  opacity:.25;
+  filter:alpha(opacity=25);
+  cursor:pointer;
+}
